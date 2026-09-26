@@ -20,13 +20,13 @@ Estimated total annual leak: £839.40
 
 ## How it works
 
-1. **Load** the bank statement from a CSV file and convert each date and amount into a usable format.
-2. **Group** every payment by merchant.
-3. **Test** each merchant against three rules. A charge counts as a subscription only when all three are true:
-   * It appears at least three times.
-   * The price stays the same, within 5%.
-   * The payments arrive roughly once a month, between 25 and 35 days apart.
-4. **Calculate** the yearly cost of each subscription from its average monthly payment.
+1. Load the bank statement from a CSV file and convert each date and amount into a usable format.
+2. Group every payment by merchant.
+3. Test each merchant against three rules. A charge counts as a subscription only when all three are true:
+- It appears at least three times.
+- The price stays the same, within 5%.
+- The payments arrive roughly once a month, between 25 and 35 days apart.
+4. Calculate the yearly cost of each subscription from its average monthly payment.
 
 The price and timing rules are what separate a real subscription from regular shopping. Tesco appears every month, but the amount changes each time, so it is correctly excluded.
 
