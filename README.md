@@ -40,21 +40,6 @@ python3 my_detector.py
 
 To check your own statement, save it as a CSV with the columns `Date`, `Description` and `Amount` (dates written as DD/MM/YYYY), then replace `practice_statement.csv` in the code with your file name.
 
-## Files
-
-| File | Purpose |
-| --- | --- |
-| `my_detector.py` | The detector |
-| `practice_statement.csv` | Sample bank statement covering January to April 2026 |
-
 ## Built with
 
 Python, using the built in `csv`, `datetime` and `os` libraries.
-
-## Next steps
-
-* Detect weekly and yearly subscriptions as well as monthly ones.
-* Flag price rises, for example when a subscription quietly increases in cost.
-* Visualise spending with Flask and Chart.js.
-
-Built by [Rahama Saleh](https://rahamasaleh1.github.io)
