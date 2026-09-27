@@ -1,10 +1,4 @@
-# Subscription Leak Detector
-
-A Python tool that scans a bank statement and finds forgotten subscriptions: the small monthly payments that quietly add up over a year.
-
-## The result
-
-Running the detector on the sample statement identified five recurring charges and correctly ignored everyday spending such as groceries and coffee.
+Small monthly payments are easy to forget. A free trial that turned into a subscription or a gym you stopped going to months ago. I built this tool to find them. It reads a bank statement, spots payments that come back every month at the same price and works out what each one costs over a year. On the sample statement it found five subscriptions worth £839 a year, while correctly ignoring everyday spending like groceries.
 
 ```
 Recurring charges found:
